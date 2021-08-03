@@ -1,27 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 body,html{
-  min-height: 100%;
   text-align: center;
 }
 
 body {
   
   margin: 0;
-  font-family: 'Quattrocento', serif;
+  /* font-family: 'Quattrocento', serif; */
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Patrick Hand', cursive;
   background-image: url(https://images.unsplash.com/photo-1542888743-a0323a8bd3df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2001&q=80);
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  backdrop-filter: (10px);
 
 }
 
 :root{
+  --bg-color: #DB592A;
+  --text-color: #FFFFFF
 }
 
 .App{
   margin: auto;
   max-width: 600px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,20 +42,22 @@ h2{
 
 .main-container div{
   display: flex;
-  justify-content: space-around ;
-  background-color: yellow;
- 
+  justify-content: space-evenly ;
+
 }
 
 .top-container div,.bottom-container div{
   
-  border: 2px solid red;
+  border: 5px solid transparent;
   margin: 0.5rem;
 }
 
 .box-1, .box-2{
   align-items: center;
-  height: 200px;
-  width: 300px;
+  height: 150px;
+  width: 150px;
+  color: var(--text-color);
+  margin: 1rem;
+  background-color: var(--bg-color)
 }
 

@@ -6,18 +6,18 @@ function App() {
       <div className="main-container">
           <div className="top-container">
               <div className="box-1">
-                <h2>Angles of traingle</h2>
+                <h3>Angles of traingle</h3>
               </div>
               <div className="box-2">
-                <h2>Check Hypotenuse</h2>
+                <h3>Check Hypotenuse</h3>
               </div>
           </div>
           <div className="bottom-container">
               <div className="box-1">
-                <h2>Calculate Area</h2>
+                <h3>Calculate Area</h3>
               </div>
               <div className="box-2">
-                <h2>Take a quiz</h2>
+                <h3>Take a quiz</h3>
               </div>
           </div>
       </div>
