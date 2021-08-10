@@ -1,3 +1,4 @@
+import Footer from './footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               </div>
           </div>
       </div>
+      <Footer/>
     </div>
   );
 }
