@@ -1,4 +1,4 @@
-import Footer from './footer'
+import Footer from './Footer'
 import Home from './Home'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import AnglesOfTriangle from './AnglesOfTriangle';

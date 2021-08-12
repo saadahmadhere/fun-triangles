@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 body,html{
@@ -7,22 +6,18 @@ body,html{
 }
 
 body {
-  
   margin: 0;
-  /* font-family: 'Quattrocento', serif; */
-  /* font-family: 'Indie Flower', cursive; */
   font-family: 'Patrick Hand', cursive;
   background-image: url(https://images.unsplash.com/photo-1542888743-a0323a8bd3df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2001&q=80);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  backdrop-filter: (10px);
-
 }
 
 :root{
   --bg-color: #DB592A;
-  --text-color: #FFFFFF
+  --text-color: #FFFFFF;
+  --hover: #E89171;
 }
 
 .App{
@@ -46,19 +41,28 @@ h2{
 
 }
 
-.top-container div,.bottom-container div{
-  
+.container div{
   border: 5px solid transparent;
   margin: 0.5rem;
 }
 
-.box-1, .box-2{
+.box{
   align-items: center;
   height: 150px;
   width: 150px;
-  color: var(--text-color);
   margin: 1rem;
   background-color: var(--bg-color)
+}
+
+.box:hover{
+  background-color: var(--hover);
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: var(--text-color);
+
 }
 
 /* Footer */
@@ -86,6 +90,47 @@ ul {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.legacyText {
-  font-size: 0.8rem;
+
+/* Angles of traingle */
+
+.blur{
+  backdrop-filter: blur(10px);
+  padding: 2px;
+  margin-bottom: 1rem;
+}
+
+form{
+  display: inline-block;
+}
+
+.angleInput{
+  display:block;
+  padding: 10px;
+  margin-bottom: 0.5rem;
+  background: var(--hover);
+  outline:none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.angleInput:focus{
+  border: 1px solid var(--bg-color);
+  background-color: #E6C2B5;
+}
+
+button{
+  background-color: var(--bg-color);
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: large;
+  margin-top: 1rem;
+}
+
+button:hover{
+  background-color: var(--hover);
+  color: #fff;
+  cursor: pointer;
 }
