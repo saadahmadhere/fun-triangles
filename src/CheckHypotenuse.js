@@ -1,5 +1,12 @@
 const CheckHypotenuse = () => {
-    return ( <h1>Check Hypotenuse</h1> );
+    return ( 
+        <div className="hypotenuse">
+            <h1>Length of hypotenuse = sqrt(a² + b²)</h1>
+            <form >
+                <label htmlFor="firstAngle"></label>
+            </form>
+        </div>
+    );
 }
  
 export default CheckHypotenuse;
