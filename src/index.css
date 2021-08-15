@@ -93,7 +93,7 @@ ul {
 
 /* Angles of traingle */
 
-.anglesOfTriangle, .checkHypotenuse{
+.anglesOfTriangle, .checkHypotenuse, .calculateArea{
   color: rgb(168, 47, 47);
 }
 
@@ -111,7 +111,15 @@ form{
   display: inline-block;
 }
 
-.angleInput{
+form label{
+  display:block;
+  margin-bottom: 0.5rem;
+  outline:none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.angleInput, .calculateArea input{
   display:block;
   padding: 10px;
   margin-bottom: 0.5rem;
@@ -121,7 +129,7 @@ form{
   border-radius: 5px;
 }
 
-.angleInput:focus{
+.angleInput:focus ,.calculateArea input:focus{
   border: 1px solid var(--bg-color);
   background-color: #E6C2B5;
 }
@@ -144,6 +152,18 @@ button:hover{
 
 /* Check Hypotenuse */
 
-.checkHypotenuse{
-  
+/* Calculate Area */
+
+.calculateArea form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculateArea form label{
+  display:block;
+  margin-bottom: 0.5rem;
+  outline:none;
+  border: 1px solid transparent;
+  border-radius: 5px;
 }

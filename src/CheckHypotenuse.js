@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useState } from "react"
 
 const CheckHypotenuse = () => {
 
-    const[buttonClicked, setButtonClicked] = useState(false);
-    const[firstAngle, setFirstAngle] = useState("");
-    const[secondAngle, setSecondAngle] = useState("");
+    const[buttonClicked, setButtonClicked] = useState(false)
+    const[firstAngle, setFirstAngle] = useState("")
+    const[secondAngle, setSecondAngle] = useState("")
 
     const firstValueHandler = (e) =>{
         setFirstAngle(e.target.value)
