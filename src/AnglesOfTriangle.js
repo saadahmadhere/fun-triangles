@@ -36,16 +36,30 @@ const AnglesOfTriangle = () => {
 
     return ( 
         <div className="anglesOfTriangle">
+        
             <div className="blur">
                <h2>Enter the angles in below input boxes and we will tell you if those angles make a Triangle</h2>
             </div>
+
             <form onSubmit={submitButtonHandler}>
-                <input onChange = {firstValueHandler} min = "1" max = "180" className = "angleInput" type="number" autoFocus required/>
-                <input onChange = {secondValueHandler} min = "1" max = "180" className = "angleInput" type="number" required/>
-                <input onChange = {thirdValueHandler} min = "1" max = "180" className = "angleInput" type="number" required/>
+
+                <label htmlFor="firstInput">a:</label>
+                <input onChange = {firstValueHandler} min = "1" max = "180" id="firstInput" className = "angleInput" type="number" autoFocus required/>
+
+                <label htmlFor="secondInput">b:</label>
+                <input onChange = {secondValueHandler} min = "1" max = "180" id="secondInput" className = "angleInput" type="number" required/>
+
+                <label htmlFor="thirdInput">c:</label>
+                <input onChange = {thirdValueHandler} min = "1" max = "180" id="thirdInput" className = "angleInput" type="number" required/>
+
                 <button type="submit">submit</button>
+
             </form>
-            <Triangle/>
+
+            <div className="blur">
+                <Triangle/>
+            </div>
+            
         </div>
      );
 }

@@ -93,6 +93,14 @@ ul {
 
 /* Angles of traingle */
 
+.anglesOfTriangle, .checkHypotenuse{
+  color: rgb(168, 47, 47);
+}
+
+form label{
+  font-size: 1.5rem;
+}
+
 .blur{
   backdrop-filter: blur(10px);
   padding: 2px;
@@ -125,11 +133,17 @@ button{
   border-radius: 10px;
   font-family: 'Patrick Hand', cursive;
   font-size: large;
-  margin-top: 1rem;
+  margin: 1rem auto;
 }
 
 button:hover{
   background-color: var(--hover);
   color: #fff;
   cursor: pointer;
+}
+
+/* Check Hypotenuse */
+
+.checkHypotenuse{
+  
 }
