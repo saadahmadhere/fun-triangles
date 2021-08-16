@@ -93,8 +93,8 @@ ul {
 
 /* Angles of traingle */
 
-.anglesOfTriangle, .checkHypotenuse, .calculateArea{
-  color: rgb(168, 47, 47);
+.anglesOfTriangle, .checkHypotenuse, .calculateArea, .quiz{
+  color: rgb(104, 41, 41);
 }
 
 form label{
@@ -166,4 +166,17 @@ button:hover{
   outline:none;
   border: 1px solid transparent;
   border-radius: 5px;
+}
+
+
+/* Quiz */
+
+.questionContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.questionContainer h3{
+  font-size: 1.5rem;
 }
