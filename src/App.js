@@ -1,10 +1,11 @@
-import {Footer} from './Footer'
-import Home from './Home'
+
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import AnglesOfTriangle from './AnglesOfTriangle';
 import CheckHypotenuse from './CheckHypotenuse'
 import CalculateArea from './CalculateArea'
 import TakeAQuiz from './TakeAQuiz'
+import {Footer} from './Footer'
+import Home from './Home'
 
 function App() {
   return (
