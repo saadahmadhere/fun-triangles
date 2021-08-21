@@ -5,6 +5,7 @@ import CheckHypotenuse from './CheckHypotenuse'
 import CalculateArea from './CalculateArea'
 import TakeAQuiz from './TakeAQuiz'
 import Home from './Home'
+import Footer from './Footer'
 
 function App() {
   return (
