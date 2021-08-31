@@ -83,8 +83,6 @@ a{
 }
 
 footer {
-  background-color: rgba(153, 90, 38, 0.5);
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
